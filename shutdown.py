@@ -12,8 +12,8 @@ import signal
 GPIO.setmode(GPIO.BCM)
 
 #define GPIO pin
-pin_btn = 27
-pin_led = 17
+pin_btn = 19
+pin_led = 26
 
 GPIO.setup(pin_btn, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(pin_led, GPIO.OUT, initial=GPIO.LOW)
@@ -77,4 +77,3 @@ except KeyboardInterrupt:
     print('User press Ctrl+c ,exit;')
 finally:
     cleanup()
-
