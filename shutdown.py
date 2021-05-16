@@ -45,6 +45,7 @@ def onPress(channel):
         GPIO.output(pin_led, 1)
         print('system will restart in %s' % (count_down))
     elif press_time == 2:
+        GPIO.output(pin_led, 1)
         print('system will halt in %s' % (count_down))
     elif press_time == 3:
         GPIO.output(pin_led, 0)
