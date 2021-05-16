@@ -9,10 +9,11 @@ The current of raspberry pi pins is not enough for powering the fan so a triode 
 Use GPIO.19 for shutdown & reboot button, use GPIO.26 for LED indicator.
 Press the button and the script will countdown from 10 before reboot.
 Press again to switch between reboot/shutdown/cancel mode.
-|Mode|LED|
-|reboot|blink|
-|shutdown|on|
-|cancel|off|
+| Mode | LED |
+| ---- | ---- |
+| reboot | blink |
+| shutdown | on |
+| cancel | off |
 
 ![example](./wiring.jpg)
 
