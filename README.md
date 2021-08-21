@@ -29,7 +29,7 @@ nohup ./fan.py &
 ### Terminate
 Find the PID of the process
 ```bash
-ps auxf | fan.py
+ps auxf | grep fan.py
 ```
 End the process
 ```bash
